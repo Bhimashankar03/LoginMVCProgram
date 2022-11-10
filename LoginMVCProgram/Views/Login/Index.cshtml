@@ -1,0 +1,15 @@
+﻿@model Student
+<html>
+<head>
+	<title> </title>
+</head>
+<body>
+Class Name is :	@Model.ClassName;
+	<form method="post" asp-controller="Login" asp-action="Index">
+	Name : <input type="text" name="name"/>
+	<br />
+	Password :	<input type="text" name="password"/>
+	<button>Submit</button>
+	</form>
+</body>
+</html>
